@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90vw;
+    height: 95vh;
+    background-color: hsl(198, 20%, 13%);
+    /* background:hsl(60, 10%, 19%) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+.box{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    /* gap: 10px; */
+}
+.frontpart, .result, .entrypoint{
+    width: 100%;
+    border: 1px solid green;
+}
+.frontpart{
+    height: 10%;
+    
+}
+.result{
+    height: 15%;
+    border-radius: 20px;
+}
+.entrypoint{
+    height: 70%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    padding: 5px;
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    font-weight: 700;
+    grid-template-areas: "seven eight nine delete"" four five six plus" "one two three minus" "period zero slash times"" reset reset equals equals";
+}
+ .seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: seven;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: eight;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.nine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: nine;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: delete;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: four;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: five;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: six;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: plus;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: one;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: two;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: three;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: minus;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.period{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: period;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.zero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: zero;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.slash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: slash;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: times;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: reset;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.equals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: equals;
+    color:hsl(198, 20%, 13%) ;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}  
